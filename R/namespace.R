@@ -48,7 +48,6 @@ is_s3_generic <- function(fun) {
 .base_s3_generics <- c(
   names(.knownS3Generics),
   .S3PrimitiveGenerics,
-  getGenerics(),
   if (getRversion() >= "3.5.0") {
     .S3_methods_table[, 1L]
   } else {
