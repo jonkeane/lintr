@@ -29,9 +29,17 @@ drink_me.data.frame <- function(x, ...) {
 #' head on my_s3_object
 #' @export
 head.my_s3_object <- function(x, ...) {
+  NULL
+}
 
 #' assign names for my_custom_class
 #' @export
 `names<-.my_custom_class` <- function(x, value) {
+  NULL
+}
+
+#' sum my_custom_class
+#' @export
+sum.my_custom_class <- function(...) {
   NULL
 }
